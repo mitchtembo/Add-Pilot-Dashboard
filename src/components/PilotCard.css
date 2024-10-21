@@ -1,0 +1,39 @@
+.pilot-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pilot-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.pilot-card p {
+  margin: 8px 0;
+}
+
+.pilot-card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.pilot-card-actions button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pilot-card-actions button:first-child {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pilot-card-actions button:last-child {
+  background-color: #f44336;
+  color: white;
+}
